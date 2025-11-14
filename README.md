@@ -8,30 +8,6 @@ Aplikasi Machine Learning untuk memprediksi profit penjualan menggunakan data Su
 - Membangun model prediksi profit dengan akurasi tinggi
 - Dashboard interaktif untuk visualisasi dan prediksi real-time
 
-## 📁 Struktur Project
-
-```
-.
-├── data/
-│   ├── raw/
-│   │   └── Superstore.csv                # Dataset asli
-│   ├── Superstore.csv                    # Dataset dengan features
-│   ├── X_train.csv, X_test.csv           # Training/test features
-│   └── y_train.csv, y_test.csv           # Training/test target
-├── models/
-│   ├── profit_prediction_model.pkl       # Model CatBoost Original
-│   ├── label_encoders.pkl                # Encoders untuk kategori
-│   ├── feature_names.pkl                 # Nama fitur
-│   ├── model_metrics.pkl                 # Metrics (optional)
-│   └── backup/                           # Semua versi model
-├── notebook/
-│   ├── 01_eda.ipynb                      # Exploratory Data Analysis
-│   ├── 02_preprocessing.ipynb            # Data Preprocessing
-│   └── 03_modeling.ipynb                 # Model Training
-├── app.py                                # Streamlit Dashboard
-├── requirements.txt                       # Dependencies
-└── README.md                             # Dokumentasi
-```
 
 ## 🔧 Instalasi
 
