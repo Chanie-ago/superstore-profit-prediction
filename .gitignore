@@ -21,6 +21,3 @@ ENV/
 .DS_Store
 Thumbs.db
 
-# CatBoost
-catboost_info/
-
